@@ -1,0 +1,40 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@colors/colors": "1.5.0",
+    "@hapi/boom": "^10.0.1",
+    "@sampandey001/baileys": "^6.3.0",
+    "@types/node": "^18.0.6",
+    "@whiskeysockets/baileys": "^6.5.0",
+    "awesome-phonenumber": "^6.4.0",
+    "axios": "^1.6.7",
+    "cfonts": "~2.10.0",
+    "chalk": "~4.1.0",
+    "express": "^4.18.2",
+    "figlet": "^1.7.0",
+    "forever": "^4.0.3",
+    "fs-extra": "^11.1.1",
+    "jimp": "^0.16.13",
+    "libphonenumber-js": "^1.10.49",
+    "lodash": "^4.17.21",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^3.2.6",
+    "openai": "^4.26.0",
+    "path": "^0.12.7",
+    "pino": "^8.1.0",
+    "pm2": "^5.3.1",
+    "proto": "^1.0.19",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
